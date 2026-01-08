@@ -18,6 +18,19 @@ Project ini dikembangkan sebagai bagian dari **IT Division Technical Task (NET C
   - Powered by Vite
 
 ---
+## 🖼️ Screenshot Aplikasi
+
+### Dashboard (Kanban Board)
+![Dashboard](binusflow/screenshots/dashboard.png)
+
+### Add / Edit Task Modal
+![Add Task](binusflow/screenshots/add-task_modal.png)
+
+### Configuration Page
+![Configuration](binusflow/screenshots/configuration.png)
+
+### Add Custom Color
+![Add Color](binusflow/screenshots/add-color.png)
 
 ## 🛠️ Tech Stack
 
