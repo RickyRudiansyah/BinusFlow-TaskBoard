@@ -1,22 +1,20 @@
 # 🚀 BinusFlow – Task Board Management System
 
-BinusFlow adalah **web-based task board application** yang dirancang untuk membantu pengguna mengelola tugas secara terstruktur menggunakan konsep **Kanban-style workflow**.  
-Project ini dikembangkan sebagai bagian dari **IT Division Technical Task (NET C# Track)** dan difokuskan pada clean UI, modern frontend stack, serta scalable structure.
+BinusFlow adalah **web-based task board application** yang dirancang untuk membantu pengguna mengelola tugas secara terstruktur menggunakan konsep **Kanban-style workflow**.
+
+Project ini dikembangkan sebagai bagian dari **IT Division Technical Task (NET C# Track)** dan berfokus pada clean UI, modern frontend stack, serta struktur kode yang rapi dan scalable.
 
 ---
 
 ## ✨ Features
 
 - 📋 **Task Board (Kanban Style)**
-  - Kolom task (To Do, In Progress, Done)
-  - Drag & drop task antar status
+  - To Do, In Progress, Done
 - 🧩 **Task Management**
-  - Create, update, dan delete task
-  - Set title dan deskripsi task
+  - Create, update, delete task
 - 🎨 **Modern UI**
   - Clean & responsive interface
-  - Dark-friendly design
-- ⚡ **Fast Frontend Build**
+- ⚡ **Fast Development**
   - Powered by Vite
 
 ---
@@ -24,14 +22,13 @@ Project ini dikembangkan sebagai bagian dari **IT Division Technical Task (NET C
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **React**
-- **TypeScript**
-- **Vite**
-- **CSS / Modern Styling**
+- React
+- TypeScript
+- Vite
 
 ### Tooling
-- ESLint
 - npm
+- ESLint
 - Git & GitHub
 
 ---
@@ -50,35 +47,23 @@ BinusFlow-TaskBoard/
 │
 ├── .gitignore
 └── README.md
-⚙️ How to Run Locally
-Pastikan Node.js sudah terinstall.
 
-bash
-Copy code
-# Masuk ke folder project
+```
+## 🚀 How to Run Locally
+
+Make sure Node.js is installed.
+
+```bash
+# Move to project folder
 cd binusflow
 
 # Install dependencies
 npm install
 
-# Jalankan development server
+# Run development server
 npm run dev
-Akses aplikasi di browser:
+```
+How to Run Locally
+Then open your browser at: http://localhost:5173
 
-arduino
-Copy code
-http://localhost:5173
-🎯 Purpose of This Project
-Project ini dibuat untuk:
 
-Menguji pemahaman frontend modern development
-
-Menerapkan React + TypeScript dalam project nyata
-
-Menunjukkan kemampuan struktur kode dan UI thinking
-
-Menjadi portfolio project untuk seleksi IT Division
-
-👤 Author
-Ricky Rudiansyah
-📍 Computer Science – BINUS University
