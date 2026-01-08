@@ -1,0 +1,92 @@
+.config-page {
+  min-height: 100vh;
+  background: #F5A962;
+  padding: 25px;
+}
+
+.config-header h1 {
+  display: inline-block;
+  background: #FFF8E7;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.config-content {
+  background: #FFF8E7;
+  border-radius: 12px;
+  padding: 25px;
+  min-height: 300px;
+}
+
+.config-content h2 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.color-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.color-item {
+  position: relative;
+}
+
+.color-box {
+  width: 55px;
+  height: 55px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.remove-btn {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #ef4444;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.remove-btn:hover {
+  background: #dc2626;
+}
+
+.add-btn {
+  width: 55px;
+  height: 55px;
+  border-radius: 8px;
+  background: white;
+  border: 2px dashed #3B5BDB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  color: #3B5BDB;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: #3B5BDB;
+  color: white;
+  border-style: solid;
+}
+
+.add-btn span {
+  font-size: 8px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
